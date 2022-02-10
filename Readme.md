@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов»
 
 * Студент: [Дмитрий Леган](https://up.htmlacademy.ru/react/9/user/1792885).
-* Наставник: `Неизвестно`.
+* Наставник: [Владислав Зубко](https://htmlacademy.ru/profile/whatislove).
 
 ---
 
