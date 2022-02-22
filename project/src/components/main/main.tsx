@@ -5,6 +5,7 @@ type MainPageProps = {
 }
 
 function MainPage({offersCount}: MainPageProps): JSX.Element {
+  const offersArray = new Array({offersCount}).fill('').map(() => <OneOffer />);
   return (
 
 
@@ -96,10 +97,7 @@ function MainPage({offersCount}: MainPageProps): JSX.Element {
                 </ul>
               </form>
               <div className="cities__places-list places__list tabs__content">
-                for (let i= 0; {offersCount}; i++) {
-                  <OneOffer />
-                }
-
+                offersArray
               </div>
             </section>
             <div className="cities__right-section">
