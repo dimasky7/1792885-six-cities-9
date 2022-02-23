@@ -5,7 +5,7 @@ type MainPageProps = {
 }
 
 function MainPage({offersCount}: MainPageProps): JSX.Element {
-  const offersArray = new Array({offersCount}).fill('').map(() => <OneOffer />);
+  const offersArray = new Array(offersCount).fill('').map((_, idx) => <OneOffer key={idx.toString()}/>);
   return (
 
 
